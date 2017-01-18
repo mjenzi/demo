@@ -7,6 +7,10 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 group :development, :test do # <<<< :development, not devlopment
   gem 'sqlite3'
 end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
