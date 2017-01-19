@@ -1,7 +1,7 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "owl.carousel.css";
-@import "owl.theme.css";
-@import "style.css";
-@import "responsive.css";
+@import "owl.carousel.css.scss";
+@import "owl.theme.css.scss";
+@import "style.css.scss";
+@import "responsive.css.scss";
