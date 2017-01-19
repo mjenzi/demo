@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap.js
+//= require bootstrap-sprockets
 //= require SmoothScroll.js
 //= require jquery.isotope.js
 //= require owl.carousel.js
