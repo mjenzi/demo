@@ -1,0 +1,24 @@
+<!-- About Us Page
+==========================================-->
+<div id="tf-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+             <%= image_tag @service[:image], class:  "img-responsive" %>
+            </div>
+            <div class="col-md-6">
+                <div class="about-text">
+                    <div class="section-title">
+                        <h2><%= @service[:name]%></h2>
+                        <hr>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="intro"><%= @service[:tagline]%> </p>
+                    <ul class="about-list">
+                       <%= @service[:description]%>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
